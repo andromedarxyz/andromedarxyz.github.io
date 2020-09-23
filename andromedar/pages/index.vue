@@ -1,27 +1,48 @@
 <template>
-  <div class="container">
-    <div>
-      <Logo />
-      <h1 class="title">andromedar</h1>
-      <div class="links">
-        <a
-          href="https://nuxtjs.org/"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="button--green"
-        >
-          Documentation
-        </a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="button--grey"
-        >
-          GitHub
-        </a>
-      </div>
+  <div class="container" style="background-color: #f4e9e2">
+    <img src="/cover.jpg" alt="Andromedar" class="image" />
+    <iframe
+      width="100%"
+      height="300"
+      scrolling="no"
+      frameborder="no"
+      allow="autoplay"
+      style="padding: 0px 42px"
+      src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1037349952&color=%23000000&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
+    ></iframe>
+    <div
+      style="
+        font-size: 10px;
+        color: #cccccc;
+        line-break: anywhere;
+        word-break: normal;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        font-family: Interstate, Lucida Grande, Lucida Sans Unicode, Lucida Sans,
+          Garuda, Verdana, Tahoma, sans-serif;
+        font-weight: 100;
+      "
+    >
+      <a
+        href="https://soundcloud.com/cosmosheldrake"
+        title="Cosmo Sheldrake"
+        target="_blank"
+        style="color: #cccccc; text-decoration: none"
+        >Cosmo Sheldrake</a
+      >
+      ·
+      <a
+        href="https://soundcloud.com/cosmosheldrake/sets/nightingale-wake-up-calls-1"
+        title="Nightingale Wake Up Calls"
+        target="_blank"
+        style="color: #cccccc; text-decoration: none"
+        >Nightingale Wake Up Calls</a
+      >
     </div>
+    <nuxt-link class="text-xl my-8 uppercase" to="/impressum"
+      >Contact / Impressum</nuxt-link
+    >
   </div>
 </template>
 
@@ -29,40 +50,17 @@
 export default {}
 </script>
 
-<style>
-/* Sample `apply` at-rules with Tailwind CSS
+<style lang="postcss">
+/* Sample `apply` at-rules with Tailwind CSS */
 .container {
-@apply min-h-screen flex justify-center items-center text-center mx-auto;
-}
-*/
-.container {
-  margin: 0 auto;
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+  @apply min-h-screen flex flex-col items-center text-center mx-auto;
+  max-width: 800px;
 }
 
-.title {
-  font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
-    'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-  display: block;
-  font-weight: 300;
-  font-size: 100px;
-  color: #35495e;
-  letter-spacing: 1px;
+.image {
+  @apply;
 }
-
-.subtitle {
-  font-weight: 300;
-  font-size: 42px;
-  color: #526488;
-  word-spacing: 5px;
-  padding-bottom: 15px;
-}
-
-.links {
-  padding-top: 15px;
+body {
+  background-color: #f4e9e2;
 }
 </style>
