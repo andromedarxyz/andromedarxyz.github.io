@@ -1,44 +1,18 @@
 <template>
   <div class="container" style="background-color: #f4e9e2">
     <img src="/cover.jpg" alt="Andromedar" class="image" />
-    <iframe
-      width="100%"
-      height="300"
-      scrolling="no"
-      frameborder="no"
-      allow="autoplay"
-      src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1037349952&color=%23000000&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
-    ></iframe>
-    <div
-      style="
-        font-size: 10px;
-        color: #cccccc;
-        line-break: anywhere;
-        word-break: normal;
-        overflow: hidden;
-        white-space: nowrap;
-        text-overflow: ellipsis;
-        font-family: Interstate, Lucida Grande, Lucida Sans Unicode, Lucida Sans,
-          Garuda, Verdana, Tahoma, sans-serif;
-        font-weight: 100;
-      "
-    >
-      <a
-        href="https://soundcloud.com/cosmosheldrake"
-        title="Cosmo Sheldrake"
-        target="_blank"
-        style="color: #cccccc; text-decoration: none"
-        >Cosmo Sheldrake</a
-      >
-      ·
-      <a
-        href="https://soundcloud.com/cosmosheldrake/sets/nightingale-wake-up-calls-1"
-        title="Nightingale Wake Up Calls"
-        target="_blank"
-        style="color: #cccccc; text-decoration: none"
-        >Nightingale Wake Up Calls</a
+    <div class="items-center text-center mx-auto">
+      <iframe
+        style="border: 0; width: 100%; height: 120px"
+        class="mx-auto"
+        src="https://bandcamp.com/EmbeddedPlayer/album=148200409/size=large/bgcol=333333/linkcol=0f91ff/tracklist=false/artwork=small/transparent=true/"
+        seamless
+        ><a href="https://andromedar.bandcamp.com/album/andromedar"
+          >Andromedar by Andromedar</a
+        ></iframe
       >
     </div>
+
     <nuxt-link class="text-xl my-8 uppercase" to="/impressum"
       >Contact / Impressum</nuxt-link
     >
