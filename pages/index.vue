@@ -12,10 +12,18 @@
         ></iframe
       >
     </div>
-
-    <nuxt-link class="text-xl my-8 uppercase" to="/impressum"
-      >Contact / Impressum</nuxt-link
-    >
+    <div class="flex space-x-8">
+      <nuxt-link
+        class="text-xl my-8 uppercase hover:underline font-medium"
+        to="/sampleus"
+        >Sample us</nuxt-link
+      >
+      <nuxt-link
+        class="text-xl my-8 uppercase hover:underline font-medium"
+        to="/impressum"
+        >Contact / Impressum</nuxt-link
+      >
+    </div>
   </div>
 </template>
 
