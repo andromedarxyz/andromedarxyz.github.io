@@ -1,5 +1,5 @@
 <template>
-  <div class="container my-8" style="background-color: #f4e9e2">
+  <div class="container pt-6 px-4" style="background-color: #f4e9e2">
     <h2 class="text-2xl my-8 font-medium">Booking</h2>
     <div>
       <p class="font-medium">
@@ -20,7 +20,7 @@
       </p>
     </div>
 
-    <nuxt-link class="text-xl my-8" to="/">back</nuxt-link>
+    <nuxt-link class="text-xl mt-8" to="/">back</nuxt-link>
   </div>
 </template>
 

@@ -1,5 +1,5 @@
 <template>
-  <div class="container my-5 px-4" style="background-color: #f4e9e2">
+  <div class="container pt-6 px-4" style="background-color: #f4e9e2">
     <img src="/kugel.jpg" alt="Andromedar" class="image" />
     <div class="my-3">
       <h2 class="text-2xl my-8 font-medium">Samples</h2>
