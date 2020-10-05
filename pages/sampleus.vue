@@ -2,7 +2,7 @@
   <div class="container pt-6 px-4" style="background-color: #f4e9e2">
     <img src="/kugel.jpg" alt="Andromedar" class="image" />
     <div class="my-3">
-      <h2 class="text-2xl my-8 font-medium">Samples</h2>
+      <h2 class="text-2xl my-8 font-medium">Sample us</h2>
       <p class="my-2">You can download a pack with ANDROMEDAR samples.</p>
 
       <a
