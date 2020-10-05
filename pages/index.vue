@@ -1,7 +1,7 @@
 <template>
   <div class="container" style="background-color: #f4e9e2">
     <img src="/cover.jpg" alt="Andromedar" class="image" />
-    <div class="items-center text-center mx-auto">
+    <div class="items-center text-center mx-auto mb-8">
       <iframe
         style="border: 0; width: 100%; height: 120px"
         class="mx-auto"
@@ -10,18 +10,6 @@
         ><a href="https://andromedar.bandcamp.com/album/andromedar"
           >Andromedar by Andromedar</a
         ></iframe
-      >
-    </div>
-    <div class="flex space-x-8">
-      <nuxt-link
-        class="text-xl my-8 uppercase hover:underline font-medium"
-        to="/sampleus"
-        >Sample us</nuxt-link
-      >
-      <nuxt-link
-        class="text-xl my-8 uppercase hover:underline font-medium"
-        to="/impressum"
-        >Contact / Impressum</nuxt-link
       >
     </div>
   </div>
