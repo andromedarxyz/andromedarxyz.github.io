@@ -22,17 +22,4 @@
 export default {}
 </script>
 
-<style lang="postcss">
-/* Sample `apply` at-rules with Tailwind CSS */
-.container {
-  @apply min-h-screen flex flex-col items-center text-center mx-auto;
-  max-width: 800px;
-}
-
-.image {
-  @apply;
-}
-body {
-  background-color: #f4e9e2;
-}
-</style>
+<style lang="postcss"></style>

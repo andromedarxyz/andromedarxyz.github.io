@@ -1,6 +1,5 @@
 <template>
   <div>
-    <div class="spacer"></div>
     <section
       id="bottom-navigation"
       class="block fixed inset-x-0 bottom-0 z-10 shadow"
@@ -30,8 +29,5 @@ export default {}
   /* @apply min-h-screen flex flex-col items-center text-center mx-auto; */
   max-width: 800px;
   margin: auto;
-}
-.spacer {
-  height: 50px;
 }
 </style>
