@@ -23,6 +23,7 @@ export default {}
 /* Sample `apply` at-rules with Tailwind CSS */
 .container {
   @apply min-h-screen flex flex-col items-center text-center mx-auto pt-4 pb-12;
+  padding-bottom: 70px;
   max-width: 800px;
 }
 

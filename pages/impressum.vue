@@ -8,7 +8,7 @@
       </p>
     </div>
     <h2 class="text-2xl my-8 font-medium4">Impressum</h2>
-    <div>
+    <div class="my-2">
       <p>Angaben gemäß § 5 TMG:</p>
       <p>
         Martin Hering<br />
@@ -19,8 +19,6 @@
         nur mit deren ausdrücklicher Genehmigung wiederverwendet werden.
       </p>
     </div>
-
-    <nuxt-link class="text-xl mt-8" to="/">back</nuxt-link>
   </div>
 </template>
 
