@@ -1,14 +1,14 @@
 <template>
-  <div class="container pt-6 px-4" style="background-color: #f4e9e2">
-    <h2 class="text-2xl my-8 font-medium">Booking</h2>
-    <div>
+  <div class="container">
+    <BaseTitle>Booking</BaseTitle>
+    <div class="mt-2">
       <p class="font-medium">
         Michael Maier <br />
         <a href="mailto:info@andromedar.xyz">info@andromedar.xyz</a>
       </p>
     </div>
-    <h2 class="text-2xl my-8 font-medium4">Impressum</h2>
-    <div class="my-2">
+    <BaseTitle>Impressum</BaseTitle>
+    <div class="mt-2">
       <p>Angaben gemäß § 5 TMG:</p>
       <p>
         Martin Hering<br />
