@@ -11,10 +11,10 @@
     <div class="mt-2">
       <p>Angaben gemäß § 5 TMG:</p>
       <p>
-        Martin Hering<br />
-        Deißenhofenerstraße 98<br />
-        81539 München<br />
-        martin.hering.it+andromedar(a)gmail.com <br />
+        Michael Maier<br />
+        St.-Veit Straße 23<br />
+        81673 München<br />
+        info@andromedar.xyz <br />
         Die Bildrechte liegen bei den jeweiligen Fotografen/Künstler und können
         nur mit deren ausdrücklicher Genehmigung wiederverwendet werden.
       </p>
