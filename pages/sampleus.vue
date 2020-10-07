@@ -3,7 +3,9 @@
     <img src="/kugel.jpg" alt="Andromedar" class="image px-4" />
     <div class="mt-2">
       <BaseTitle>Sample us</BaseTitle>
-      <p class="my-2">You can download a pack with ANDROMEDAR samples.</p>
+      <p class="my-2">
+        Get the original Andromedar Loop and Sample Pack right here.
+      </p>
       <a
         href="https://www.dropbox.com/sh/69rz3ygywc4bu04/AACx1LO3G-ZK26-0CmRI-Wwya?dl=0"
         target="_blank"
